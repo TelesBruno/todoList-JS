@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <script language="javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <h1>TO DO LIST</h1>
+    </nav>
+    <section>
+        <form onsubmit="return false">
+            <input type="text" placeholder="Type here what you need to do..." size="25" id="newTask" required/>
+            <input id="button1" type="button" value="Submit" onclick="validation()" /></form>
+        <p id="validation"> Informe uma tarefa válida</p>
+        <div id="list"></div>
+    </section>
+</body>
+
+</html>
